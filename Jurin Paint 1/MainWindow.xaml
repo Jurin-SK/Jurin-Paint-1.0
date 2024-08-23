@@ -1,0 +1,82 @@
+﻿<Window x:Class="Jurin_Paint_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Jurin_Paint_1"
+        mc:Ignorable="d"
+        Title="Jurin Paint" Height="700" Width="700" Icon="Resources/Window/Color.ico" WindowState="Maximized">
+    <Grid Background="Lavender">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Menu Grid.Row="0">
+            <MenuItem Header="File" FontSize="14">
+                <MenuItem Header="New" Click="MenuItem_Click_4"></MenuItem>
+                <MenuItem Header="Save" Click="MenuItem_Click_5"></MenuItem>
+                <MenuItem Header="Open" Click="MenuItem_Click_6"></MenuItem>
+                <Separator></Separator>
+                <MenuItem Header="Exit" Click="MenuItem_Click_7"></MenuItem>
+            </MenuItem>
+            <MenuItem Header="Edit" FontSize="14">
+                <MenuItem Header="Clear" Click="MenuItem_Click_2"></MenuItem>
+                <MenuItem Header="Filter" IsEnabled="False">
+                    <MenuItem Header="Nice Try :D"></MenuItem>
+                </MenuItem>
+                <MenuItem Header="Background" Click="MenuItem_Click_3"></MenuItem>
+            </MenuItem>
+            <MenuItem Header="About" FontSize="14">
+                <MenuItem Header="Github" Click="MenuItem_Click"></MenuItem>
+                <MenuItem Header="About" Click="MenuItem_Click_1"></MenuItem>
+            </MenuItem>
+        </Menu>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="40"></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Column="0" Orientation="Vertical" VerticalAlignment="Center">
+                <Button Width="40" Height="40" ToolTip="Line" Name="line_draw" Click="line_draw_Click" Cursor="Pen">
+                    <Image Source="Resources/Toolbar/Line.bmp"></Image>
+                </Button>
+                <Button Width="40" Height="40" ToolTip="Square" Name="square_draw" Click="square_draw_Click" Cursor="Pen">
+                    <Image Source="Resources/Toolbar/Square.bmp"></Image>
+                </Button>
+                <Button Width="40" Height="40" ToolTip="Fill Square" Name="fillsquare_draw" Click="fillsquare_draw_Click" Cursor="Pen">
+                    <Image Source="Resources/Toolbar/Square_Fill.bmp"></Image>
+                </Button>
+                <Button Width="40" Height="40" ToolTip="Circle" Name="circle_draw" Click="circle_draw_Click" Cursor="Pen">
+                    <Image Source="Resources/Toolbar/Circle.bmp"></Image>
+                </Button>
+                <Button Width="40" Height="40" ToolTip="Fill Circle" Name="fillcircle_draw" Click="fillcircle_draw_Click" Cursor="Pen">
+                    <Image Source="Resources/Toolbar/Circle_Fill.bmp"></Image>
+                </Button>
+                <Button Width="40" Height="40" ToolTip="Triangle" Name="triangle_draw" Click="triangle_draw_Click" Cursor="Pen">
+                    <Image Source="Resources/Toolbar/Triangle.bmp"></Image>
+                </Button>
+                <Button Width="40" Height="40" ToolTip="Fill Triangle" Name="filltriangle_draw" Click="filltriangle_draw_Click" Cursor="Pen">
+                    <Image Source="Resources/Toolbar/Triangle_Fill.bmp"></Image>
+                </Button>
+                <Button Width="40" Height="40" ToolTip="Text" Name="text_draw" Click="text_draw_Click" Cursor="Pen">
+                    <Image Source="Resources/Toolbar/Text.bmp"></Image>
+                </Button>
+                <Button Width="40" Height="40" ToolTip="Image" Name="image_draw" Click="image_draw_Click" Cursor="Pen">
+                    <Image Source="Resources/Toolbar/Image.bmp"></Image>
+                </Button>
+                <Button Width="40" Height="40" ToolTip="Color" Name="colordialog" Click="colordialog_Click" Cursor="Pen">
+                    <Image Source="Resources/Toolbar/Color.bmp"></Image>
+                </Button>
+
+                <Button Width="40" Height="40" ToolTip="Thickness" Name="thickness_dialog" Click="thickness_dialog_Click">
+                    <Image Source="Resources/Toolbar/Thickness.bmp"></Image>
+                </Button>
+            </StackPanel>
+            <ScrollViewer HorizontalAlignment="Right" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" Grid.Column="1">
+                
+                <Canvas Width="5050" Height="800" Grid.Column="1" Name="canvas_paint" MouseDown="canvas_paint_MouseDown" MouseUp="canvas_paint_MouseUp" Background="White" Cursor="Cross">
+                </Canvas>
+            </ScrollViewer>
+        </Grid>
+    </Grid>
+</Window>

@@ -1,0 +1,57 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>Jurin_Paint_1</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Color.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\Others\Clipboard_Icon.png" />
+    <None Remove="Resources\Others\Github_Logo.png" />
+    <None Remove="Resources\Others\My_Logo.png" />
+    <None Remove="Resources\Toolbar\Circle.bmp" />
+    <None Remove="Resources\Toolbar\Circle_Fill.bmp" />
+    <None Remove="Resources\Toolbar\Color.bmp" />
+    <None Remove="Resources\Toolbar\Image.bmp" />
+    <None Remove="Resources\Toolbar\Line.bmp" />
+    <None Remove="Resources\Toolbar\Square.bmp" />
+    <None Remove="Resources\Toolbar\Square_Fill.bmp" />
+    <None Remove="Resources\Toolbar\Text.bmp" />
+    <None Remove="Resources\Toolbar\Thickness.bmp" />
+    <None Remove="Resources\Toolbar\Transparent.bmp" />
+    <None Remove="Resources\Toolbar\Triangle.bmp" />
+    <None Remove="Resources\Toolbar\Triangle_Fill.bmp" />
+    <None Remove="Resources\Window\Color.ico" />
+    <None Remove="View\Tools\Color.bmp" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Color.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Others\Clipboard_Icon.png" />
+    <Resource Include="Resources\Others\Github_Logo.png" />
+    <Resource Include="Resources\Others\My_Logo.png" />
+    <Resource Include="Resources\Toolbar\Circle.bmp" />
+    <Resource Include="Resources\Toolbar\Circle_Fill.bmp" />
+    <Resource Include="Resources\Toolbar\Color.bmp" />
+    <Resource Include="Resources\Toolbar\Image.bmp" />
+    <Resource Include="Resources\Toolbar\Line.bmp" />
+    <Resource Include="Resources\Toolbar\Square.bmp" />
+    <Resource Include="Resources\Toolbar\Square_Fill.bmp" />
+    <Resource Include="Resources\Toolbar\Text.bmp" />
+    <Resource Include="Resources\Toolbar\Thickness.bmp" />
+    <Resource Include="Resources\Toolbar\Transparent.bmp" />
+    <Resource Include="Resources\Toolbar\Triangle.bmp" />
+    <Resource Include="Resources\Toolbar\Triangle_Fill.bmp" />
+    <Resource Include="Resources\Window\Color.ico" />
+    <Resource Include="View\Tools\Color.bmp" />
+  </ItemGroup>
+
+</Project>

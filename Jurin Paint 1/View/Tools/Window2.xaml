@@ -1,0 +1,28 @@
+﻿<Window x:Class="Jurin_Paint_1.View.Tools.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Jurin_Paint_1.View.Tools"
+        mc:Ignorable="d"
+        Title="IconPack" Height="450" Width="474">
+    <Grid Background="White">
+        <Image Source="/Resources/Others/Clipboard_Icon.png" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top"></Image>
+        <Image Source="/Resources/Others/Github_Logo.png" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50,0,0,0"></Image>
+        <Image Source="/Resources/Others/My_Logo.png" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="100,0,0,0"></Image>
+        <Image Source="/Resources/Toolbar/Circle.bmp" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="150,0,0,0"></Image>
+        <Image Source="/Resources/Toolbar/Circle_Fill.bmp" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="200,0,0,0"></Image>
+        <Image Source="/Resources/Toolbar/Color.bmp" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="250,0,0,0"></Image>
+        <Image Source="/Resources/Toolbar/Image.bmp" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="300,0,0,0"></Image>
+        <Image Source="/Resources/Toolbar/Line.bmp" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="350,0,0,0"></Image>
+        <Image Source="/Resources/Toolbar/Square.bmp" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="400,0,0,0"></Image>
+        <Image Source="/Resources/Toolbar/Square_Fill.bmp" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,50,0,0"></Image>
+        <Image Source="/Resources/Toolbar/Text.bmp" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50,50,0,0"></Image>
+        <Image Source="/Resources/Toolbar/Thickness.bmp" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="100,50,0,0"></Image>
+        <Image Source="/Resources/Toolbar/Transparent.bmp" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="150,50,0,0"></Image>
+        <Image Source="/Resources/Toolbar/Triangle.bmp" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="200,50,0,0"></Image>
+        <Image Source="/Resources/Toolbar/Triangle_Fill.bmp" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="250,50,0,0"></Image>
+        <Image Source="/Resources/Toolbar/cur.cur" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="300,50,0,0"></Image>
+        <Image Source="/Resources/Others/C_Sharp.bmp" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="300,50,0,0"></Image>
+    </Grid>
+</Window>
