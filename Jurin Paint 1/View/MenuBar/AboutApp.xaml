@@ -72,7 +72,7 @@ Title="About" Height="250" Width="270" WindowStyle="None" ResizeMode="NoResize">
                 <Image Source="/Resources/Others/My_Logo.png" Width="40"></Image>
             </StackPanel>
             <TextBlock Text="It is a simple and open source drawing program in the C# .NET programming language created by Jurin. The graphics library is the WPF." Height="70" TextWrapping="Wrap" Margin="10"></TextBlock>
-            <Button Content="OK" Width="90" Name="ok_but" Click="ok_but_Click" IsDefault="True" Margin="5"></Button>
+            <Button Content="OK" Width="90" Name="ok_but" Click="ok_but_Click" IsDefault="True" Margin="6"></Button>
         </StackPanel>
     </Grid>
 </Window>
