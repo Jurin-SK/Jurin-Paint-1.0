@@ -3,7 +3,7 @@
 It is a simple and open source drawing program in the C# .NET programming language created by Jurin. The graphics library is the WPF.
 ## 💽 How to download
 * Simply go to this mediafire link:https://www.mediafire.com/file/z1nln1ungjzq3np/Jurin+Paint+Install.msi/file
-* Be aware of fake download apps
+* Be aware of fake download buttons
 * SmartScreen or Chrome might have flagged it as unsafe because I don't have a certificate.
 **WARNING: This link can change over time**
 ## 💾 Instalation
