@@ -5,7 +5,7 @@ It is a simple and open source drawing program in the C# .NET programming langua
 * Simply go to this mediafire link:https://www.mediafire.com/file/z1nln1ungjzq3np/Jurin+Paint+Install.msi/file
 * Be aware of fake download buttons
 * SmartScreen or Chrome might have flagged it as unsafe because I don't have a certificate.
-**WARNING: This link can change over time**
+* **WARNING: This link can change over time**
 ## 💾 Instalation
 * If you download a file open it
 * Click next
@@ -15,7 +15,7 @@ It is a simple and open source drawing program in the C# .NET programming langua
 * Keep a good eye on the Taskbar. Maybe they'll post a UAC alert there.
 * When installation finish press close and enjoy 😊
 ## ⛔ Uninstalling
-* Open control pannel
+* Open control panel
 * Click Uninstall a program
 * Right click on "Jurin Paint Install" and press Uninstall
 ## ⚠️ Warning
